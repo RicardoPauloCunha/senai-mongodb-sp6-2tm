@@ -10,7 +10,7 @@
 -> mongo - linha de comando
 -> show dbs
 -> use todo
--> show collection
+-> show collections
 -> db.tasks.count() - comando quantidade
 -> db.tasks.findOne()
 -> db.tasks.find()
