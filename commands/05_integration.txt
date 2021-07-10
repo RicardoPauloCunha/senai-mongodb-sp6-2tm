@@ -1,0 +1,4 @@
+-> use bancoDados // criará um novo banco caso ele não exista
+-> db.createCollections("nomeCollection")
+
+- MongoDB.Driver install

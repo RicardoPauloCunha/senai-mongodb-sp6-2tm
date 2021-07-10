@@ -1,9 +1,0 @@
--> use bancoDados // criará um novo banco caso ele não exista
--> db.createCollections("nomeCollection")
-
-- MongoDB.Driver install
-
--> C:\Users\50473694808\AppData\Roaming\npm\create-react-app senai-svigufo-react-firebase
-
--> npm install --save firebase
--> npm install --save react-router-dom

@@ -1,0 +1,12 @@
+-> git clone novo repositorio
+-> abrir: C:\Program Files\MongoDB\Server\4.0\bin
+-> arrastar o arquivo CSV
+-> abrir o cmd na pasta
+-> digitar: mongo
+-> verificar o resultado
+if - failed
+-> em services -> inicar o serviço MongoDB Server
+else - success
+-> mongoimport --db todo -c tasks --type csv --file tasks.csv --headerline
+-> mongo - linha de comando
+-> show dbs

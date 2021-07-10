@@ -1,6 +1,0 @@
--> db.tasks.insert({"titulo" : "Titul Z"})
--> db.tasks.insert({"titulo" : "Titul Z", "descricao" : "dotnet core"})
--> db.tasks.insertMany([{"titulo" : "Titul Z", "descricao" : "dotnet core"},{"titulo" : "Titul X", "descricao" : "dotnet core top"}])
--> bool : true
--> data : new Date(), Date("<YYYY-mm-ddHH:MM:ss>")
- 

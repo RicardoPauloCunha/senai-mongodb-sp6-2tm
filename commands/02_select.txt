@@ -1,0 +1,20 @@
+-> mongo - linha de comando
+-> show dbs
+-> use todo
+-> show collections
+-> db.tasks.count() - comando quantidade
+-> db.tasks.findOne()
+-> db.tasks.find()
+-> db.tasks.find().pretty()
+-> db.tasks.find().limit(2).pretty()
+-> db.tasks.find({"titulo":"Titulo A"})
+-> db.tasks.find({"titulo":"Titulo A"}).pretty()
+-> db.tasks.find({"titulo":"Titulo A", "descricao":"bootstrap"}).pretty()
+-> db.tasks.find({ $or: [{"titulo":"Titulo A"}, {"titulo":"Titulo b"}]}).pretty()
+-> db.tasks.find({"titulo": { $in : ["Titulo A", "Titulo B"]}}).pretty()
+-> db.tasks.find({ $or : [{"titulo" : { $in : ["Titulo A", "Titulo B"]}}, {"descricao" : {in$ : ["es6", "html"]}]}]}).pretty()
+-> db.tasks.find({"descricao" : /e/}).pretty
+-> db.tasks.find({"descricao" : /e$/}).pretty
+-> db.tasks.find({"descricao" : /^e/}).pretty
+-> db.tasks.find({"descricao" : {$in : [/e/, /a$/, /^b/]}}).pretty
+-> db.tasks.find().sort({"_id" : 1}).pretty()

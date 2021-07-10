@@ -1,5 +1,0 @@
--> db.tasks.upadate({"titulo":"Titulo A"}, {"descricao":"Mongo DB"})
-
--> db.tasks.upadate({"titulo":"Titulo A"}, {$set : {"descricao":"Mongo DB 2"}})
-
--> db.tasks.upadateMany()
